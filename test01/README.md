@@ -47,3 +47,12 @@ $ /usr/local/euphoria-4.1.0-Linux-x64/bin/eui compile.ex test01/t02.ex
 00000330    7: qprint r3
 00010000    8: end
 ```
+
+/usr/local/euphoria-4.1.0-Linux-x64/bin/eui compile.ex test01/t02.ex | ./interpret
+
+> 14
+
+```
+$ /usr/local/euphoria-4.1.0-Linux-x64/bin/eui compile.ex test01/fib.ex
+error
+```
